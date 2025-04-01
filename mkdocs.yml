@@ -1,0 +1,6 @@
+site_name: Dodo's Site
+site_url: https://hungryDodo.github.io/
+site_author: Dodo
+
+theme:
+  name: terminal
