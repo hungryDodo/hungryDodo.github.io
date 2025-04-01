@@ -25,6 +25,8 @@ jobs:
           path: ~/.cache/pip
           restore-keys: |
             pip-
+      - run: pwd
+      - run: ls -la
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
       - run: mkdocs gh-deploy --force
