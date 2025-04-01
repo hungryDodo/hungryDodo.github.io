@@ -4,3 +4,4 @@ site_author: Dodo
 
 theme:
   name: terminal
+  favicon: assets/images/icon.ico
