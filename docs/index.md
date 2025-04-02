@@ -1,38 +1,63 @@
-<div style="text-align: center; margin: 2rem 0;">
-    <img src="assets/img/id.jpg" 
-         alt="个人照片" 
-         style="
-             width: 200px;
-             height: 200px;
-             border-radius: 50%;
-             object-fit: cover;
-             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-             margin: 0 auto;
-         ">
+<div style="display: flex; gap: 30px; align-items: flex-start; padding: 20px; background: #f8f9fa; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
+<!-- 左侧头像区 -->
+    <div style="flex: 0 0 250px; text-align: center;">
+        <img src="../assets/img/id.jpg"
+            style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </div>
+
+    <!-- 右侧信息区 -->
+    <div style="flex: 1;">
+        <!-- 使用HTML标签替代Markdown语法 -->
+        <h1>Guorun YAO</h1>
+
+        <div style="margin-bottom: 12px;">
+            <span>
+                IoT PhD Student <br>
+                IoT Thrust, Info. Hub <br>
+                HKUST (GZ) <br>
+            </span>
+        </div>
+        
+        <div>
+            <a href="mailto:gyao253@connect.hkust-gz.edu.cn">
+                <i class="fa-solid fa-envelope" style="color: #74C0FC; margin-right: 6px;"></i>
+                EMAIL
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/hungryDodo">
+                <i class="fa-solid fa-bug" style="color: #FFD43B; margin-right: 6px;"></i>
+                GitHub
+            </a>
+        </div>
+        <div>
+            <a href="https://scholar.google.com/citations?user=rEcKuZwAAAAJ">
+                <i class="fa-solid fa-feather" style="color: #63E6BE; margin-right: 6px;"></i>
+                Google Scholar
+            </a>
+        </div>
+        
+    </div>
+
 </div>
 
-# Grwn YAU
-
-IoT PhD Student <br>
-Internet of Things Thrust, Information Hub <br>
-The Hong Kong University of Science and Technology (Guangzhou) <br>
-No. 1 Duxue Road, Nansha District, Guangzhou, China <br>
-
-[<i class="fa-solid fa-envelope" style="color: #74C0FC;"></i> EMAIL](mailto:gry@gmail.com) | [<i class="fa-solid fa-bug" style="color: #63E6BE;"></i> GITHUB](https://github.com/hungryDodo) | [<i class="fa-solid fa-feather" style="color: #FFD43B;"></i> GOOGLE SCHOLAR](https://scholar.google.com/citations?user=rEcKuZwAAAAJ)
-
----
+<hr style="margin: calc(var(--global-space) * 2) 0; border: 0; height: 1px; visibility: hidden;">
 
 ## About Me
 
-To me, travel isn't just about scenery - it's about measuring cultural warmth step by step. Whether bargaining in morning markets with local dialects or stargazing during wilderness camping, these moments make life vibrant. My hands-on hobbies perfectly complement this curiosity: from modifying camping gear to designing travel journal bindings, I thrive on turning ideas into tangible creations. Currently learning woodworking, with a dream to craft foldable portable tea sets for my next adventure.
+As an IoT researcher and advocate of the *Edge-as-a-Service (EaaS)* paradigm, I am dedicated to pioneering edge computing and embedded intelligent systems. My work focuses on deploying lightweight AI models onto resource-constrained devices (e.g., Raspberry Pi, Jetson, ESP32) through containerized orchestration, model customization, and device-edge-cloud collaborative architectures to enhance system efficiency.
+
+Committed to bridging the gap between theory and real-world implementation, I actively foster interdisciplinary collaborations to build low-power, highly responsive edge intelligence systems for environmental monitoring, smart transportation, , and related domains. Beyond research, I draw cross-disciplinary inspiration from capturing diverse cultures through photography, which fuels my passion for innovative problem-solving.
 
 ---
 
 ## Research Interests
 
-1. Edge-Optimized LLM Compilation (Compilers + LLM + Edge Computing)
-2. Edge-Native LLM Continuous Evolution (Edge Computing + LLM)
-3. Heterogeneous Edge Compilation Middleware (Compilers + Edge Computing)
+1. Collaboration of Heterogeneous End-Edge-Cloud Resource 
+2. Lightweight AI Model Compression & Adaptive Inference
+3. Embedded Compiler Optimization & Real-Time Orchestration
+4. Industrial-Grade Low-Latency Reliable Applications
 
 ---
 
