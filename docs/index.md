@@ -59,6 +59,11 @@ Committed to bridging the gap between theory and real-world implementation, I ac
 3. Embedded Compiler Optimization & Real-Time Orchestration
 4. Industrial-Grade Low-Latency Reliable Applications
 
+/// important
+    open: True
+Building from multiple dimensions to ultimately achieve system-level implementation is the core focus of my work.
+///
+
 ---
 
 ## News
